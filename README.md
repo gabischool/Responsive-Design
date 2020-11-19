@@ -72,7 +72,7 @@ Once you finish the minimum viable tasks, work on any of the following stretch g
 
 🤝[W3 Schools - Responsive Design](https://www.w3schools.com/html/html_responsive.asp)
 
-👀 [Explore a Curated Gallery of Professional Portfolios](https://wpamelia.com/portfolio-websites/#webdev)
+👀 [If you need images for the gallery section, go here](https://wpamelia.com/portfolio-websites/#webdev)
 
 ## Submission format
 
