@@ -21,9 +21,11 @@ In this task you will refactor the restaurant website code to make it responsive
 
 ### Task 1: Set up Project
 
-New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from yesterday:
+New features of a project should occur in a new branch in the same repository. Follow these steps to set up and work on your project from last lecture:
 
-- [ ] `cd` into the restaurant folder
+- [ ] `Fork` this project
+- [ ] `Clone` this project into your computer
+- [ ] `cd` into the project
 - [ ] Create a new branch from `<YourfirstName-YourlastName>`:
 
 ```bash
