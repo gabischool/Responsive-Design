@@ -1,0 +1,207 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* End of reset */
+
+body{
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: "Titillium Web", sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+p{
+    font-size: 1rem;
+    line-height: 1.25;
+}
+
+h1, h2, h3, h4{
+    font-family: "Bangers", serif;
+}
+
+.logo{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    font-size: 3rem;
+    color: #515151;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+nav a{
+    background-color: #D5D5D5;
+    color: black;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+header{
+    background-color: #D5D5D5; 
+    padding: 3rem 0rem; 
+    text-align: center;
+    color: black;
+    margin: 1rem 0;
+}
+header h1{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-style: bold;
+    font-family: Arial;
+}
+header p{
+    padding: 0  4rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.content .hd1, .hd2, .hd3, .hd4{
+    background-color: #D5D5D5;
+    padding: 1rem 2rem;
+}
+.content h3{
+    font-size: 1.5rem;
+    padding: 1rem  0;
+    font-style: bold;
+    font-family: Arial;
+}
+.content p{
+    padding: 0  1rem;
+}
+.hd2{
+    margin-left: 1rem;
+}
+.hd3{
+    margin-left: -2rem;
+    margin-right: 1rem;
+}
+
+h6{
+    background-color: #D5D5D5; 
+    padding: 2rem 0; 
+    text-align: center;
+    color: black; 
+    margin: 0.4rem  0;
+}
+
+ @media (max-width : 500px){
+
+    .logo{
+        font-size: 1.7rem;
+    }
+    nav{
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        padding: 0.5rem 0;
+        background-color: #878787;
+        margin: 0.2rem 0;
+    }
+    header{
+        background-color: #D5D5D5; 
+        padding: 3rem 0rem; 
+        text-align: center;
+        color: black;
+        margin: 1rem 0;
+    }
+    header h1{
+        font-size: 1.7rem;
+        font-style: bold;
+        font-family: Arial;
+    }
+    header p{
+        font-size: 0.8rem;
+    }
+    .content {
+        flex-direction: column;
+        justify-content: space-around;
+        text-align: center;
+    }
+    .content h3{
+        font-size: 1.5rem;
+        font-style: bold;
+        font-family: Arial;
+        padding-top:  1rem;
+    }
+    .content .hd1, .hd2, .hd3, .hd4 {
+        margin-bottom: 1rem;
+        padding-bottom: 1rem;
+        background-color: #D5D5D5;
+    }
+    .hd2{
+        margin-left: 0;
+    }
+    .hd3{
+        
+        margin-right: 0;
+    }
+    .content  p{
+        font-size: 1rem;
+    }
+    footer {
+        margin-top: 1rem;
+    }
+
+} 
