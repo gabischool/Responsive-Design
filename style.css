@@ -1,0 +1,179 @@
+/* Your CSS goes here */
+/* Your CSS goes here */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header {
+  margin: 0 auto;
+  width: 70%;
+}
+
+a,
+li {
+  list-style: none;
+  text-decoration: none;
+}
+.nav__list a:hover {
+  border-bottom: 2px solid #e6834c;
+}
+
+.nav__bar li a {
+  color: white;
+  margin-left: 30px;
+}
+
+.nav__bar {
+  display: flex;
+  background: #454f6f;
+  width: 100%;
+  padding: 20px;
+}
+.max-width {
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+}
+.showCase {
+  background: #e6834c;
+  padding: 5%;
+  text-align: center;
+  letter-spacing: 5px;
+  color: white;
+}
+.showCase h1 {
+  margin-bottom: 20px;
+}
+
+.text-box__aboutFatumaRestaurant {
+  background-color: whitesmoke;
+  padding: 4%;
+  margin-top: 20px;
+}
+.text-box__aboutFatumaRestaurant h3 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+}
+.row-aligner {
+  display: flex;
+  padding: 20px;
+  width: 100%;
+}
+.text-box__pastaWithBanana {
+  width: 50%;
+  text-align: justify;
+}
+
+.text-box__pastaWithBanana h3,
+.text-box__riceWithBanana h3,
+.text-box__Contact h3 {
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+
+.text-box__riceWithBanana {
+  width: 50%;
+  margin-left: 70px;
+  text-align: justify;
+}
+.text-box__Catering > h3 {
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+
+.text-box__Catering > p {
+  width: 70%;
+  text-align: justify;
+}
+
+.text-box__Contact {
+  margin-left: 20px;
+  text-align: justify;
+}
+footer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer--text__list {
+  display: flex;
+  flex-direction: row;
+  background-color: #454f6f;
+  width: 100%;
+  justify-content: space-around;
+  padding: 20px;
+  color: white;
+}
+
+.footer-list a {
+  color: white;
+  text-decoration: none;
+}
+.footer-list {
+  display: flex;
+}
+.footer-list li {
+  margin-right: 30px;
+  list-style: none;
+}
+
+footer P {
+  background-color: #e6834c;
+  text-align: center;
+  padding: 5px;
+}
+
+@media (max-width: 700px) {
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .nav__list li {
+  }
+
+  .max-width {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+  }
+
+  .footer--text__list {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .row-aligner {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+
+  .text-box__pastaWithBanana,
+  .text-box__Catering {
+    width: 100%;
+    text-align: justify;
+  }
+
+  body {
+    width: 100%;
+  }
+}
