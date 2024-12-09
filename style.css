@@ -1,0 +1,186 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Don`t touch reset css */
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: sans-serif;
+}
+*{
+    box-sizing: border-box;
+
+}
+
+section h1 {
+    font-size: 2rem;
+    text-align: center;
+	background-color:#386175;
+}
+nav a{
+    align-items: center;
+    text-decoration: none;
+	border-top: 1px solid #ff45ff;
+	border-bottom: 1px solid #ff45ff;;
+	color: black;
+
+}
+nav {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+ }
+ p{
+    font-size: 1rem;
+    line-height: 1.2;
+ }
+ h1, h2, h3,h4 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 1.2rem;
+
+ }
+ .logo {
+	width: 200px;
+	display: none;
+ }
+ 
+ header {
+	color: black;
+	text-align: center;
+	padding-bottom: 1rem;
+	border-bottom: 3px solid black;
+ }
+ header h1{
+	font-size: 2rem;
+	margin-bottom: 1rem;
+	line-height: 1;
+	margin-top: 1rem;
+ }
+ button {
+	border-radius: 20px;
+	background-color: bisque;
+	font-size: 1rem;
+	cursor: pointer;
+	padding: 0.1rem 1rem;
+ }
+ section{
+	margin: 0 1 rem ;
+ }
+ section div{
+	margin: 2rem 0;
+ }
+ section h2 {
+	font-size: 1.25rem;
+	margin:  0 0 0.25rem;
+ }
+ section p {
+	font-size: 1rem;
+	margin: 0;
+ }
+#class-2{
+	border-bottom: 1px solid black;
+ }
+ .center{
+	width: 100%;
+	height: 400px;
+	padding: 20px;
+ }
+ footer{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	
+ }
+ footer a{
+	color: black;
+	text-decoration: none;
+ }
+ footer h3{
+	align-items: center;
+ }
+
+
+
+ @media (min-width: 500px;) {
+	nav {
+		flex-direction: row;
+		justify-content: space-around;
+	}
+	nav a {
+		border: 0;
+	}
+	header h1 {
+		font-size: 4rem;
+		margin-bottom: 1.5rem;
+	}
+	#class-1, #class-2{
+		display: flex;
+		justify-content: space-around;
+	}
+
+ }
+ @media (min-width: 800px;){
+	.logo{
+		display: block;
+		width: 100%;
+		height: auto;
+	}
+	header{
+		display: flex;
+		justify-content: space-around;
+	}
+	header div {
+		width: 50%;
+		height: auto;
+	}
+
+ }
+
+
+
+
