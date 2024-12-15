@@ -1,0 +1,529 @@
+/* Your CSS goes here */
+
+
+
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+ 
+}
+
+ 
+/* nav css */
+
+nav {
+    background-color: #454f6f;
+    display: flex;
+    flex-direction: column;
+    width: 60rem;
+    justify-content: space-evenly;
+    height:  45rem;
+    font-family: 'Franklin Gothic small';
+   max-height: 50rem;
+    
+}
+nav img{
+    width: 16.25rem;
+    height: 16.25rem;
+    border-radius: 50%;
+    
+}
+
+nav  h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+
+   
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+   justify-content: space-around;
+  max-height: 20rem;
+  width: 100%;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin-bottom: 3.2rem;
+    
+}
+nav ul li:first-child{
+    margin-top: 2rem;
+}
+
+nav ul li a {
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    min-width: 60rem;
+}
+ 
+
+
+/* header css */
+
+header {
+    background-color: #e6834c;
+    min-height:  31.25rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 60rem;
+
+
+}
+
+header h1 {
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium';
+}
+
+header h2 {
+    font-weight: lighter;
+    font-size: 3.125rem;
+    margin-top: 1.875rem;
+    font-family: 'Franklin Gothic small';
+}
+
+
+
+
+
+/* content css */
+
+
+ .content {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.375rem;
+    min-width: 60rem;
+ 
+}
+
+.content .about {
+    background-color: aliceblue;
+    height: 25rem;
+    padding: 3.125rem 6.25rem;
+    border-radius: 0.625;
+    height: 37rem;
+}
+
+.content .about h3 {
+    font-size: 2.5rem;
+    text-align: center;
+
+}
+
+.content .about p {
+    font-size: 1.875rem;
+    padding-top: 2.5rem;
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+.content .side1 {
+
+    display: flex;
+    flex-direction: column;
+   min-height: 37.25rem;
+   
+
+}
+
+.content .side1 .pasta-banana {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem 4.875rem; 
+}
+
+.content .side1 .pasta-banana h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+}
+
+.content .side1 .pasta-banana img {
+    border-radius: 1.25rem;
+   width: 45rem;
+    max-height: 20rem;
+    margin-top: 2rem;
+}
+
+.content .side1 .pasta-banana p {
+    font-size:  1.375rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .side1 .rice-banana {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem 4.875rem; 
+
+}
+
+.content .side1 .rice-banana p {
+    font-size: 1.375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-wrap: break-word;
+
+}
+
+.content .side1 .rice-banana h3 {
+    font-size: 1.875rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+ 
+}
+
+.content .side1 .rice-banana img {
+    border-radius: 1.25rem;
+    width: 45rem;
+    height: 15rem;
+    margin-top: 2rem;
+}
+
+
+
+.content .side2 {
+
+    display: flex;
+    flex-direction: column;
+    height: 47.25rem;
+ 
+
+}
+
+.content .side2 .catering {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem 4.875rem; 
+   
+}
+
+.content .side2 .catering h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+}
+
+.content .side2 .catering p {
+    font-size: 1.375rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content .side2 .catering img {
+    border-radius: 1.25rem;
+    width: 45rem;
+    height: 15rem;
+    margin-top: 2rem;
+
+}
+
+.content .side2 .contact {
+    display: flex;
+    flex-direction: column;
+    padding: 1.875rem;
+ }
+
+.content .side2 .contact p {
+    font-size: 1.375rem;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-wrap: break-word;
+    text-align: center;
+
+}
+
+.content .side2 .contact h3 {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-bottom: 1.25rem;
+
+}
+
+.content .side2 .contact a {
+    color: #e6834c;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 1.25rem;
+    font-size: x-large;
+    font-weight: bold;
+} 
+
+
+/* button order css , buttonka wa dheeraad*/
+ .order {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.order button {
+    color: white;
+    background-color:  #e6834c;
+    border-radius: 3.125rem;
+    padding: 1.25rem 3.25rem;
+    border: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.order button:hover {
+    background-color: #454f6f;
+} 
+
+
+/* footer css */
+.container2{
+    min-width: 60rem;
+}
+footer {
+    width: inherit;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    height:  10%;
+    font-family: 'Franklin Gothic small';
+    font-size: 1rem;
+}
+
+footer .top-footer {
+    background-color: #454f6f;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 7.5rem;
+  width: 100%;
+
+}
+
+footer .top-footer h1 {
+    color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding-left:  2.25rem;
+}
+
+footer .top-footer ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 7rem;
+    
+
+}
+
+footer .top-footer ul li {
+    list-style-type: none;
+    padding-left: 1.25rem;
+     
+}
+ 
+
+footer .top-footer ul li a {
+    font-size: xx-large;
+    font-weight: lighter;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+footer h2 {
+  
+    background-color:  #e6834c;
+    color: black;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: lighter;
+    font-family: 'Franklin Gothic lighter';
+   width: 100%;
+}
+
+
+
+
+
+
+
+/* responsive css */
+
+ 
+ 
+/* mobile screen 968px */
+
+
+@media (min-width : 968px) {
+    *{
+         font-size: small;
+    }
+    .container{
+     min-width: 60rem;
+    }
+    nav{
+     height: 7.25rem;
+     display: flex;
+     flex-direction: row;
+     width: inherit ;
+    align-items: center;
+    margin: none;
+    padding: none;
+    }
+    nav .h1{
+         padding-left: 2rem;
+         
+         width: 40rem;
+         font-size: x-large;
+    }
+    nav img{
+      height: 6rem;
+      width: 6rem;
+      margin-left: 1rem;
+    }
+    nav ul{
+  margin-left: none;
+  padding-left: 15rem;
+  display: flex;
+   align-items: center;
+  padding-top: 2rem;
+  flex-direction: row;
+  margin-right: 10rem;
+  width: 60%;
+  margin-bottom: none;
+  padding-bottom: none;
+  
+
+    }
+    nav ul li{
+     font-size: medium;
+     margin-bottom: none;
+    padding-left: 4rem;
+    }
+    nav ul li a{
+        font-size: x-large;
+        margin: none;
+    }
+    nav ul li:first-child{
+      margin-top: auto;
+  }
+  .container1 .content .about{
+    height: 30rem;
+ }
+
+}
+
+
+@media only screen and (min-width : 1200px) {
+    *{
+         font-size: large;
+    }
+
+   nav ul li a{
+    font-size: xx-large;
+   }
+   .container nav h1{
+    font-size: xx-large;
+   }
+   .container2 footer ul h1{
+    font-size: xx-large;
+   }
+   .container2 footer ul li a{
+    font-size: xx-large;
+   }
+   .container1{
+    min-width: 60rem;
+   }
+ .container1 .content{
+
+    min-width: 60rem;
+
+     
+ }
+ .container1 .content .about{
+    height: 35rem;
+ }
+  .container1 .content .side1{
+    flex-direction: row;
+  
+     
+}
+.container1 .content .side1 .pasta-banana{
+  min-width: 30rem;
+  padding-left: none;
+}
+.container1 .content .side1 .rice-banana{
+    min-width: 30rem;
+   }
+.container1 .content .side1 .pasta-banana img{
+    width: 25rem;
+    height: 12rem;
+
+  }
+ 
+
+  .container1 .content .side1 .rice-banana img{
+  width: 25rem;
+  height: 12rem;
+  }
+
+ 
+
+/* side 2 */
+.container1 .content .side2{
+    flex-direction: row;
+    height: 35rem;
+  }
+.container1 .content .side2 .catering{
+    min-width: 30rem;
+   }
+  .container1 .content .side2 .contact{
+    min-width: 40rem;
+    
+  }
+  .container1 .content .side2 .catering img{
+    width: 25rem;
+    height: 15rem;
+  }
+
+
+}
+
+
+/* latop and wide screens */
+
+@media (min-width : 1800px) {
+    .container1 .content .about{
+        height: 25rem;
+     }
+.container1 .content .side1 .pasta-banana img{
+    height: 15rem;
+    width: 40rem;
+ }
+ .container1 .content .side1 .rice-banana img{
+    margin-top: 3rem;
+    height: 15rem;
+    width: 40rem;
+}
+.container1 .content .side2 .catering img{
+
+    height: 15rem;
+    width: 55rem;
+}
+}
+@media (min-width : 2300px) {
+    .container1 .content .about{
+        height: 20rem;
+ 
+     }
+}
