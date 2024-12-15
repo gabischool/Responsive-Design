@@ -1,0 +1,75 @@
+
+* {
+  box-sizing: border-box;
+}
+
+.menu {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+
+.menu a {
+  text-decoration: none;
+  background-color: gray;
+  padding: 8px;
+  margin-top: 7px;
+  display: block;
+  width: 100%;
+  color: white;
+}
+
+.main {
+  float: right;
+  width: 100%;
+  padding: 0 20px;
+  background-color:#e5e5e5;
+  margin-top: 10px;
+  padding-bottom: 100px;
+  text-align: center;
+
+}
+
+.right {
+  background-color: #e5e5e5;
+  float: right;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  padding-bottom: 200px;
+  padding-bottom:100px ;
+  text-align: center;
+}
+.right1 {
+    background-color: #e5e5e5;
+    float: right;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    padding-bottom: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+  }
+  .right2 {
+    background-color: #e5e5e5;
+    float: right;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    padding-bottom: 200px;
+    padding-bottom:100px;
+    margin-bottom: 100px;
+    text-align: center;
+  }
+  .right3 {
+    text-align: center;
+}
+
+     
+
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
