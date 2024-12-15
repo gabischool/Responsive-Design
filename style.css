@@ -1,0 +1,232 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end of Web Reset */
+ 
+
+body {
+    max-width: 1200px;
+    margin: 0;
+    font-family: "Titillium web", sans-serif:sans-serif;
+    }
+
+    div h1 {
+        background-color: #e6834c;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    * {
+        box-sizing: border-box;
+        font-family: Arial`, `Arial bold`, `Arial Black`
+    }
+
+    p {
+        font-size: 1.2rem;
+        line-height: 1.25;
+    }
+
+    h2, h3, h4 {
+        font-family: "Bangers", serif;
+            }
+
+
+    nav {
+        display: flex;
+        flex-direction: column;
+        text text-align: center;
+            }
+
+    nav a {
+        color: lightblue;
+        text-decoration: none;
+        border: 1px solid #b4b6b7;
+        padding: 0;
+    }
+
+    header {
+        text-align: center;
+        padding-bottom: 3rem;
+        margin: 0 1rem;
+        border: 5px solid black;
+        background-color: #454f6f;
+        font-size: 2rem;
+    }
+
+    header h2 {
+        font-size: 3rem;
+        line-height: 1;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+    }
+
+    .section1 {
+        margin: 0 1rem;
+        background-color: lightskyblue;
+        border: 5px solid black;
+        padding: 10px;
+        margin: 5px;
+        text-align: justify;
+        font-size: 1.5rem;
+        text-align: center;
+    section {
+        margin: 0 1rem;
+        border: 5px solid black;
+        padding: 10px;
+        margin: 5px;
+        text-align: justify;
+            }
+
+    section div {
+        margin: 2rem 0;
+
+    }
+    section h4 {
+        font-size: 1.5rem;
+        margin: 0 0 0.5rem;
+    }
+    section p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+
+    section h3 {
+        font-size: 2rem;
+        margin: 0.5rem; 
+        text-align: center;
+        background-color: burlywood;
+        }
+    }
+
+    section p {
+        font-size: 1rem;
+        margin: 0.25rem;
+        padding: 0.25rem;
+    }
+
+    .primary1 {
+        border-bottom: 2px solid black;
+    }
+    address {
+
+        font-style: Arial, `Arial bold`;
+        background-color: grey;
+        text-align: center;
+        
+    }
+
+    address h3 {
+        margin: 0 0 0.75rem;
+        font-size: 1.5rem;
+    }
+
+    address p{
+        margin: 0 0 0.75rem
+    }
+
+    footer {
+        background-color: #454f6f;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    footer a {
+        color:lightblue;
+        text-decoration: none;
+        padding: 1rem 0.5rem;
+
+    }
+
+   @media (min-width: 500px) {
+    nav {
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  
+    nav a {
+      border: 0;
+    }
+    header h1 h2 {
+        font-size: 4rem;
+        margin-bottom: 1.5rem;
+        }
+    
+    header button {
+        font-size: 1rem;
+    }
+
+    section h4 {
+        display: flex;
+        justify-content: space-around;
+    }
+
+  }
+  
+  @media (min-width: 800px) {
+    header {
+      display: flex;
+      justify-content: space-around;
+    }
+    div {
+      width: 50%;
+    }
+    .section1 .primary1 .primary2 {
+      display: block;
+      width: 350px;
+      height: auto;
+    }
+    footer {
+        background-color: #454f6f;
+        font-size: 1rem;
+        text-align: center;
+        padding: 0.5rem;
+        margin: 0.5rem;
+    }
+
+    footer a {
+        color:lightblue;
+        text-decoration: none;
+        padding: 1rem 0.5rem;
+  }
